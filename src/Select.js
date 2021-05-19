@@ -3,12 +3,11 @@ import {Link } from "react-router-dom";
 import Header from './Header'
 import './index.css'
 
-export const UserContext = React.createContext()
+
 function Select() {
   const[num,setNum]=useState(1)
   const[name,setName]=useState("")
-  console.log(name);
-  <UserContext.Provider value={name}/>
+  
   return (
     <div>
     <div className="header">
